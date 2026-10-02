@@ -8,7 +8,7 @@ export function SiteHeader() {
         className="mx-auto flex h-14 max-w-5xl items-center justify-between gap-4 px-5"
       >
         <a href="#top" className="font-mono text-sm font-semibold tracking-tight">
-          {'KC'}
+          {'KA'}
           <span className="text-accent">.</span>
           <span className="sr-only">{profile.shortName}, back to top</span>
         </a>

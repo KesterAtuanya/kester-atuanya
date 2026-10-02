@@ -43,15 +43,29 @@ export const projects = [
     name: 'CMDB Health Scorecard',
     description:
       'A Python tool that scans a ServiceNow CMDB, grades its health from 0 to 100, and lists exactly what to fix: duplicates, stale servers, missing owners, orphaned apps.',
+    highlights: [
+      'Six weighted checks: required fields, duplicates, stale CIs, relationships, status conflicts, naming',
+      'Ranked "fix these first" list plus a CSV of every finding with sys_id and suggested fix',
+      'Read-only access, configurable rules, and a built-in demo CMDB',
+    ],
     tags: ['Python', 'ServiceNow Table API', 'CMDB'],
     url: 'https://github.com/KesterAtuanya/cmdb-health-scorecard',
+    image: '/projects/cmdb-health-scorecard.png',
+    imageAlt: 'CMDB Health Scorecard HTML report showing an overall grade and per-check health cards',
   },
   {
     name: 'SAM License Reconciler',
     description:
       'Calculates software license position and true-up exposure in dollars, finds unused installs to reclaim, and recommends what to buy, cut or renew. Supports per-device, per-user and per-core licensing.',
+    highlights: [
+      'Normalizes messy discovery titles into products with ordered regex rules',
+      'Handles core factors, per-server minimums and 2-core packs for SQL, Windows Server and Oracle',
+      'Reads from SAM Pro or CSV exports from SCCM/MECM, Intune or Flexera',
+    ],
     tags: ['Python', 'SAM Pro', 'Software Asset Management'],
     url: 'https://github.com/KesterAtuanya/sam-license-reconciler',
+    image: '/projects/sam-license-reconciler.png',
+    imageAlt: 'SAM License Reconciler report showing compliance exposure, reclaim savings and license positions per product',
   },
 ]
 
