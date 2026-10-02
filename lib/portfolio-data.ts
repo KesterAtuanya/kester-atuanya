@@ -1,11 +1,11 @@
 export const profile = {
-  name: 'Kester Atuanya',
+  name: 'Kester (KC) Atuanya',
   shortName: 'Kester Atuanya',
   title: 'Senior ServiceNow Developer',
   location: 'Houston, TX area',
   tagline:
     '8+ years building ITSM, SAM and CMDB solutions that keep enterprise IT accurate and audit-ready.',
-  email: 'Kester.acllc@gmail.com',
+  email: 'kester.acllc@gmail.com',
   linkedin: 'https://www.linkedin.com/in/kester-atuanya-a5b795308',
   github: 'https://github.com/KesterAtuanya',
 }
