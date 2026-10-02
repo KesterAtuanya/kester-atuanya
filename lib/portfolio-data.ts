@@ -7,7 +7,7 @@ export const profile = {
     '8+ years building ITSM, SAM and CMDB solutions that keep enterprise IT accurate and audit-ready.',
   email: 'Kester.acllc@gmail.com',
   linkedin: 'https://www.linkedin.com/in/kester-atuanya-a5b795308',
-  github: 'https://github.com/YOUR-USERNAME',
+  github: 'https://github.com/KesterAtuanya',
 }
 
 export const skillGroups = [
@@ -44,14 +44,14 @@ export const projects = [
     description:
       'A Python tool that scans a ServiceNow CMDB, grades its health from 0 to 100, and lists exactly what to fix: duplicates, stale servers, missing owners, orphaned apps.',
     tags: ['Python', 'ServiceNow Table API', 'CMDB'],
-    url: 'https://github.com/YOUR-USERNAME/cmdb-health-scorecard',
+    url: 'https://github.com/KesterAtuanya/cmdb-health-scorecard',
   },
   {
     name: 'SAM License Reconciler',
     description:
       'Calculates software license position and true-up exposure in dollars, finds unused installs to reclaim, and recommends what to buy, cut or renew. Supports per-device, per-user and per-core licensing.',
     tags: ['Python', 'SAM Pro', 'Software Asset Management'],
-    url: 'https://github.com/YOUR-USERNAME/sam-license-reconciler',
+    url: 'https://github.com/KesterAtuanya/sam-license-reconciler',
   },
 ]
 
